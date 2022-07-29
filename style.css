@@ -1,0 +1,125 @@
+﻿*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color: #5898c3;
+    text-decoration: none;
+}
+
+body, head{
+    background-color:#0d1117
+}
+.login_account{
+    border-radius: 5px;
+    background-color:#161b22;
+    width: 320px;
+    height: 222px;
+    margin:0 auto;
+    border-style:solid;
+    border-color:#292e35;
+    border-width:1px;
+    font-size:14px;
+    color:#c9d1d9;  
+    padding-top:15px;
+}
+
+input[type=email]{
+    border-radius:5px;
+    border-width:1px;
+    background: #0d1117;
+    border-style:solid;
+    border-color:#292e35;
+    width:288px;
+    height:30px;
+    float:left;
+    position:relative;
+    left:4.3%;
+    margin-top:20px;
+    color:#c9d1d9;
+}
+
+input[type=password]{
+    border-radius:5px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#292e35;
+    background: #0d1117;
+    width:288px;
+    height:30px;
+    float:left;
+    position:relative;
+    left:4.3%;
+    margin-top:25px;
+    color:#c9d1d9;
+}
+
+input[type=submit]{
+    border-radius: 5px;
+    background:#238636;
+    color:#c9d1d9;
+    font-size: 15px;
+    width:295px;
+    height:35px;
+    float:left;
+    position:relative;
+    left:4.3%;
+    margin-top:15px;
+    border-color:#238636;
+    border-width:1px;
+    border-style:solid;
+}
+
+.title{
+    color:#c9d1d9;
+    margin: auto;
+    margin-left:15px;
+    font-size:22px;
+    text-align: center;
+
+}
+
+.create_acc{
+    color:#c9d1d9;
+}
+
+div {
+    width: 300px;
+    margin:auto;
+}
+
+label[for=password]{
+    position: relative;
+    left: 14px;
+    top:15px;
+}
+
+label[for=account]{
+    position: relative;
+    left:14px;
+    top:10px;
+
+}
+
+a[class=forgot]{
+    position: relative;
+    left:150px;
+    top:17px;
+}
+
+.create_acc{
+    text-align: center;
+    padding-top:3px;
+    width: 320px;
+    height: 45px;
+    margin:20px auto;
+    font-size:13px;
+    border-style:solid;
+    border-color:#292e35;
+    border-radius:5px;
+    border-width:1px;
+}
+
+.about_git{
+    font-size:12px;
+    margin-top: 80px;
+}
